@@ -7,27 +7,27 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
-    <title>Gasto Semanal</title>
+    <title>Week Expense</title>
 
   </head>
   <body>
     <div class="container">
         <header>
-                <h1 class="text-center">Gasto Semanal</h1>
+                <h1 class="text-center">Week Expense</h1>
         </header>
         <section class="contenido-principal">
             <div class="row">
                 <div class="col ">
                     <div class="contenido primario">
-                        <h2 class="text-center">Añade tus gastos aqui</h2>
-                            <form id="agregar-gasto" action="#">
+                        <h2 class="text-center">Añade tus expenses aqui</h2>
+                            <form id="agregar-expense" action="#">
                                 <div class="form-group">
-                                    <label for="gasto">Gasto:</label>
-                                    <input type="text" class="form-control" id="gasto" placeholder="Nombre Gasto">
+                                    <label for="expense">Expense:</label>
+                                    <input type="text" class="form-control" id="expense" placeholder="Nombre Expense">
                                 </div>
                                 <div class="form-group">
-                                    <label for="cantidad">Cantidad:</label>
-                                    <input type="text" class="form-control" id="cantidad" placeholder="Cantidad en $">
+                                    <label for="amount">amount:</label>
+                                    <input type="text" class="form-control" id="amount" placeholder="amount en $">
                                 </div>
 
                                 <button type="submit" class="btn btn-primary">Agregar</button>
@@ -39,19 +39,19 @@
                 <div class="col">
                     <div class="contenido secundario">
 
-                        <h2 class="text-center">Listado</h2>
+                        <h2 class="text-center">List</h2>
 
-                        <div id="gastos">
+                        <div id="expenses">
                             <ul class="list-group"></ul>
                         </div>
-                        <div id="presupuesto" class="presupuesto">
+                        <div id="budget" class="tbudget">
                             <div class="alert alert-primary">
-                                <p>Presupuesto: $ <span id="total"></span> </p>
+                                <p>budget: $ <span id="total"></span> </p>
                             </div>
-                            <div class="restante alert alert-success">
-                                <p>Restante: $ <span id="restante"></span></p>
+                            <div class="remaining alert alert-success">
+                                <p>remaining: $ <span id="remaining"></span></p>
                             </div>
-                        </div> <!--.presupuesto-->
+                        </div> <!--.budget-->
                     </div> <!--.contenido-->
                 </div><!--.col-->
             </div> <!--.row-->

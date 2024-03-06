@@ -14,14 +14,14 @@ header {
     padding: 30px;
     border-radius: 20px;
 }
-.presupuesto p{
+.budget p{
     margin-bottom: 0;
     font-weight: bold;
 }
-.presupuesto p span {
+.budget p span {
     font-weight: normal;
 }
-#gastos {
+#expenses {
     margin-bottom: 30px;
 }
 h1{
